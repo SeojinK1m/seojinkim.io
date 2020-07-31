@@ -1,0 +1,139 @@
+body{
+    text-align: center;
+    font-family: "Lucida Console", Monaco, monospace;
+    background-color: darkSeagreen;
+}
+
+h1{
+    font-size: 50px;
+    margin-top: 0%;
+    margin-bottom: 1%;
+}
+
+.sam{
+    border-radius: 50%;
+    width: 20%;
+    margin-top:8%;
+    margin-bottom: .5%;
+}
+
+hr{
+    border: 1px solid  rgb(232,255,223);
+    margin-top: .3%;
+    margin-bottom: .3%;
+    margin-left: 0%;
+}
+
+.Resume{
+    font-family: "Lucida Console", Monaco, monospace;
+    background-color: rgb(232,255,223);
+    border: none;
+    color: black;
+    padding: 2% 9.5%;
+    text-align: center;
+    text-decoration: none;
+    font-size: x-large;
+    cursor: pointer;
+    border-radius: 50px;
+    transition-duration: 0.4s;
+}
+.linkedIn{
+    margin-top: 1%;
+    font-family: "Lucida Console", Monaco, monospace;
+    background-color: rgb(232, 255, 223);
+    border: none;
+    color: black;
+    padding: 2% 3%;
+    text-align: center;
+    text-decoration: none;
+    font-size: x-large;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50px;
+    transition-duration: 0.4s;
+}
+.github{
+    font-family: "Lucida Console", Monaco, monospace;
+    background-color: rgb(232,255,223);
+    border: none;
+    color: black;
+    padding: 2% 3%;
+    text-align: center;
+    text-decoration: none;
+    font-size: x-large;
+    cursor: pointer;
+    border-radius: 50px;
+    transition-duration: 0.4s;
+}
+.yt{
+    font-family: "Lucida Console", Monaco, monospace;
+    background-color: rgb(232, 255, 223);
+    border: none;
+    color: black;
+    padding: 2% 3%;
+    text-align: center;
+    text-decoration: none;
+    font-size: x-large;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50px;
+    transition-duration: 0.4s;
+}
+button:hover{
+    background-color: rgb(255, 188, 125);
+    color: white;
+}
+
+.skills{
+    background-color: rgb(232,255,223);
+    margin-top: 12%;
+}
+
+.boxed{
+    box-sizing: content-box;
+    width: 60%;
+    height: 10%;
+    border:5px solid darkseagreen;
+    margin-left: 20%;
+    margin-right:20%;
+    margin-top:2%;
+    border-radius: 100px;
+    display: block;
+}
+
+table{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+}
+
+td{
+    text-align: center;
+    width: 25%;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+.navbutton{
+    display: block;
+}
+
+button{
+    font-family: "Lucida Console", Monaco, monospace;
+    background-color:rgb(232,255,223);
+    border: none;
+    color: black;
+    padding: 2% 9.5%;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 50px;
+    transition-duration: 0.4s;
+}
+
+.navbar{
+    margin-top: 50%;
+    margin-left: 90%;
+    position: fixed;
+    display: block;
+}
+
