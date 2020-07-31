@@ -12,5 +12,21 @@ function js(){
 }
 
 function scrollMe(){
-    document.querySelector(".sam").scrollIntoView();
+    document.querySelector("body").scrollIntoView({behavior: "smooth"});
+}
+
+function scrollSkill(){
+    document.querySelector("#jumpSkill").scrollIntoView({behavior: "smooth"});
+}
+
+function scrollExp(){
+    document.querySelector("#jumpExp").scrollIntoView({behavior: "smooth"});
+}
+
+function openLI(){
+    window.open("https://www.linkedin.com/in/seojin-kim-35080918a/");
+}
+
+function openGH(){
+    window.open("https://github.com/SeojinK1m");
 }

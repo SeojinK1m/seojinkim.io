@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lanh="en">
+<html lang="en">
     <head>
         <title>
             SEOJIN KIM
@@ -15,10 +15,10 @@
             <button onclick="scrollMe();" class='navbutton'>
                 Me
             </button>
-            <button class='navbutton'>
+            <button onclick="scrollSkill();" class='navbutton'>
                 Skills
             </button>
-            <button class='navbutton'>
+            <button onclick="scrollExp();" class='navbutton'>
                 Experience
             </button>
         </nav>
@@ -28,6 +28,7 @@
         <div class='me'>
             <h1>SEOJIN KIM</h1>
             <hr>
+            <hr id='mid'>
             <hr>
             <h2>Aspiring Economist and Software Developer</h2>
             <h2>WASHINGTON '23</h2>
@@ -40,31 +41,41 @@
             </button>
         </div>
         <div>
-            <button class='linkedIn'>
+
+            <button class='linkedIn' onclick="openLI();">
                 <i class="fa fa-linkedin-square"></i>
             </button>
-            <button class='github'>
+            <button class='github' onclick="openGH();">
                 <i class="fa fa-github-square"></i>
             </button>
-            <button class='yt'>
-                <i class="fa fa-youtube-play"></i>
-            </button>
+            <a href="https://www.youtube.com/watch?v=oHg5SJYRHA0" target="_blank">
+                <button class='yt'>
+                    <i class="fa fa-youtube-play"></i>
+                </button>
+            </a>     
         </div>
+
+        <div id='jumpSkill'>
+           &nbsp;
+            <div>
+                &nbsp;
+            </div>
+        <div>
 
         <div class='skills'>
             <div>
                  &nbsp;
             </div>
-            <div class='boxed'>
+            <div class='boxedDSG'>
                 <h2>
                     Skills
                 </h2> 
                 <p>
-                    Though my skillset is ever-expanding, here is a glimpse of the tools in my current arsenal
+                    Though my skillset is ever-expanding, here is a glimpse at the tools in my current arsenal
                 </p>             
             </div>   
             <div class='list'>
-                <table>
+                <table class='listOfSkills'>
                     <tr>
                         <td><button onclick="c();"><img src="https://img.icons8.com/color/48/000000/c-programming.png"/></button></td>
                         <td><button onclick="python();"><img src="https://img.icons8.com/color/48/000000/python.png"/></button></td>
@@ -88,17 +99,83 @@
             &nbsp;
         </div>
 
-        <div class='exp'>
+        <div>
             <div>
                 &nbsp;
-           </div>
-           <div class='boxed'>
-               <h2>
+            </div>
+            <div id='jumpExp'>
+                &nbsp;
+            </div>
+            <div>
+                &nbsp;
+            </div>
+            <div>
+                &nbsp;
+            </div>
+        <div>
+               <h2 class='boxedLG'>
                    Experience
                </h2> 
-               <p>
-                   Though my skillset is ever-expanding, here is a glimpse of the tools in my current arsenal
-               </p>             
+               <table class='exp'>
+                   <tr>
+                       <td class='exp1'>
+                           <h3>The Andrew Young School</h3>
+                           <p>August 2019-May 2020</p>
+                           <p>Atlanta, GA</p>
+                       </td>
+                       <td class='exp2'>
+                            <p><strong>Research Assistant</strong></p>
+                            <p>Processed and analyzed a dataset of more than 500,000 observations using Python and Stata. Developed multiple scripts in Python and Visual Basic to automate the data wrangling process.</p> 
+                       </td>
+                   </tr>
+               </table>
+
+               <div>
+                    <div>
+                        &nbsp;
+                    </div>
+                    <div>
+                        &nbsp;
+                    </div>
+               </div>
+               
+               <table class='exp'>
+                    <tr>
+                        <td class='exp3'>
+                            <p><strong>Teaching Assistant</strong></p>
+                            <p>Served as a TA for Intermediate Macroeconomics. Held tutoring sessions and created study guides for students.</p>
+                        </td>
+                        <td class='exp4'>
+                            <h3>The Andrew Young School</h3>
+                            <p>August 2019-December 2019</p>
+                            <p>Atlanta, GA</p>
+                        </td>
+                    </tr>
+                </table>
+
+                <div>
+                    <div>
+                        &nbsp;
+                    </div>
+                    <div>
+                        &nbsp;
+                    </div>
+               </div>
+
+                <table class='exp' id='lT'>
+                    <tr>
+                        <td class='exp1'>
+                            <h3>Korean American Restaurant Association</h3>
+                            <p>May 2018-Augus 2018</p>
+                            <p>Norcross, GA</p>
+                        </td>
+                        <td class='exp2'>
+                            <p><strong>Summer Intern</strong></p>
+                            <p>Established an online presence for the organization by creating and managing their website and various social media accounts. Overhauled their IT infrastructure through google's cloud services.</p>
+                        </td>
+                    </tr>
+                </table>
+
            </div> 
         </div>
         
