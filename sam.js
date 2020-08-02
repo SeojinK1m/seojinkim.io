@@ -30,3 +30,7 @@ function openLI(){
 function openGH(){
     window.open("https://github.com/SeojinK1m");
 }
+
+function openResume(){
+    window.open("Sam Kim Resume.pdf")
+}
