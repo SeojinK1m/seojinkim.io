@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-wrap: break-word;
+  animation: bgColor 20s infinite linear;
+}
+.container h1 {
+  font-size: 3.5rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  
+}
+.container h1 span.typed-text {
+  font-weight: normal;
+  color: #dd7732;
+}
+.container h1 span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.container  span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    animation: bgColor 20s infinite linear;
+  }
+  
+  .parallax {
+    /* The image used */
+    background-color:black;
+    /* Full height */
+    height: 75%; 
+    width: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:-2000;
+  }
+  .element{
+      position: fixed;
+      left:35%;
+      top:37.5%;
+      z-index:0;
+      text-align: left;
+      align-content: left;
+      width: 30%;
+  }
+
+  ul {
+    list-style-type: none;
+    text-align: center;
+    align-content: center;
+}
+p{
+  font-size: 1.5rem;
+}
+
+button {
+  background-color: black; /* Green */
+  border: none;
+  text-align: left;
+  margin-bottom: 10%;
+  transition-duration: 0.5;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+button:hover{
+  background-color: rgb(255, 153, 0);
+}
+
+
+.buttonText{
+  animation: textColor 20s infinite linear;
+  font-size: 4rem;
+  color:rgb(246, 255, 163);
+  font-family: 'Montserrat', sans-serif;
+}
+
+@keyframes bgColor {
+
+  33% {
+    background-color: #adff5b;
+  }
+  66% {
+    background-color: #9affff;
+  }
+  100% {
+    background-color: rgb(246, 255, 163);
+  }
+}
+
+@keyframes textColor {
+
+  33% {
+    color: #adff5b;
+  }
+  66% {
+    color: #9affff;
+  }
+  100% {
+    color: rgb(246, 255, 163);
+  }
+}
