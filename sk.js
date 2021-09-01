@@ -49,7 +49,7 @@ function openGH(){
 }
 
 function openResume(){
-  window.open("Sam Kim Resume.pdf");
+  window.open("SAM-KIM-RESUME.pdf");
 }
 
 function openRick(){
