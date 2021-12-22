@@ -1,55 +1,92 @@
 <!DOCTYPE html>
-
 <html lang="en">
-    <head>
-        <title>
-            SEOJIN KIM
-        </title>
-        <link rel="stylesheet" href="sk.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-
-    <body>
-        <div style="height:100%;background-color:rgb(246, 255, 163);font-size:36px;z-index:9999;position:relative;", class="container">
-            <ul>
-                <li>
-                    <h1>
-                        Seojin Kim <span class="typed-text"></span><span class="cursor">&nbsp;</span>
-                    </h1>
-                </li>
-                <li>
-                    <p>
-                        Currently seeking software engineering internships
-                    </p>
-                </li>
-            </ul>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sk.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="navbar">
+        <h4>About</h4>
+        <h4>Experience</h4>
+        <h4>Work</h4>
+        <h4>Contact</h4>
+    </div>
+    <div id="navButton" onclick="handleMenu()" data-aos="fade-left" data-aos-duration="1400"><h1><i class="fa fa-bars" style="font-size: 1.0em; margin: 10px; color: rgb(255, 159, 14);"></i></h1></div>
+    <div class="about" data-aos="fade-up" data-aos-duration="1400">
+        <h3>Hi, my name is</h3>
+        <h1>SEOJIN KIM.</h1>
+        <h1>I love <span class="typed-text"></span><span class="cursor">&nbsp;</span></h1>
+        <p>
+            I'm a software engineer experienced in building responsive applications for the web and mobile devices. 
+            Currently, I'm focused on developing software that enriches the student experience at DevSTAC.
+        </p>
+        <button id="resumeButton">
+            RESUME
+        </button>
+    </div>
+    <div id="left" data-aos="fade-left" data-aos-duration="1400">
+        <i class="fa fa-github" style="font-size: 2em; margin: 10px; color: rgb(255, 159, 14);"></i>
+        <i class="fa fa-instagram" style="font-size: 2em; margin: 10px; color: rgb(255, 159, 14)"></i>
+        <i class="fa fa-linkedin-square" style="font-size: 2em; margin: 10px; color: rgb(255, 159, 14)"></i>
+        <i class="fa fa-youtube" style="font-size: 2em; margin: 10px; color: rgb(255, 159, 14)"></i>
+    </div>
+    <div class="aboutMe">
+        <div id="aboutMeText" data-aos="fade-up" data-aos-duration="1000">
+            <h1>About Me <hr></h1> 
+            <p>
+                Howdy! My name is Seojin (but you can call me Sam) and I am a student at Washington University studying Computer Science and Economics. 
+                Fun fact: I actually started out as an Economics and Math major, and only wrote my first lines of code during the Summer of 2020.
+            </p>
+            <p>
+                When I was a research assistant in the Department of Economics, I had the chance to write some scripts in Python and was amazed at just how much only a few lines of code could accomplish.
+                Thus, I became interested in efficient algorithms and computer science as a whole. Since then, I declared a major in CS and haven't looked back since. 
+            </p>
+            <p>
+                Nowadays, I am an experienced software engineer who has had the privilege of working for a tech giant, a financial institution, and a cybersecurity start-up.
+                Currently, I am working as a software developer at WashU DevSTAC, a student run tech consulting firm.
+            </p>
+            <p>
+                Here are a few technologies I’ve been working with recently:
+            </p>
+            <table>
+                <tr>
+                    <td data-aos="fade-right" data-aos-duration="1000"><i class="fa fa-chevron-circle-right"></i> React</td>
+                    <td data-aos="fade-right" data-aos-duration="1000"><i class="fa fa-chevron-circle-right"></i> Firebase</td>
+                </tr>
+                <tr>
+                    <td data-aos="fade-right" data-aos-duration="1000"><i class="fa fa-chevron-circle-right"></i> Vue</td>
+                    <td data-aos="fade-right" data-aos-duration="1000"><i class="fa fa-chevron-circle-right"></i> Django</td>
+                </tr>
+                <tr>
+                    <td data-aos="fade-right" data-aos-duration="1000"><i class="fa fa-chevron-circle-right"></i> Swift</td>
+                    <td data-aos="fade-right" data-aos-duration="1000"><i class="fa fa-chevron-circle-right"></i> React Native</td>
+                </tr>
+            </table>
         </div>
-        
-        <div class="parallax">
-            <ul class="element">
-                <li>
-                    <button onclick="openResume()">
-                        <h2 class="buttonText">Resume</h2>
-                    </button>
-                </li>
-                <li>
-                    <button onclick="openLI()">
-                        <h2 class="buttonText">LinkedIn       <i class="fa fa-linkedin"></i></h2>
-                    </button>
-                </li>
-                <li>
-                    <button onclick="openGH()">
-                        <h2 class="buttonText">Github   <i class="fa fa-github"></i></h2>
-                    </button>
-                </li>
-                <li>
-                    <button onclick="openRick()">
-                        <h2 class="buttonText">YouTube    <i class="fa fa-youtube"></i></h2>
-                    </button>
-                </li>
-            </ul>
-        </div> 
-        <script src="sk.js"></script>
-    </body>
-    
+        <img data-aos="flip-left" data-aos-duration="1000" src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.6435-9/180978949_314228950059549_1005358403722529104_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=YGKjAwiby84AX8w1vTz&_nc_ht=scontent-ort2-1.xx&oh=00_AT9pQ14pU9RhtSE9ctYDftC5VwIY5oWEZWJ05L545v3HYg&oe=61E6138E" id="me">
+    </div>
+    <div class="whereIveWorked" data-aos="fade-up" data-aos-duration="700">
+        <h1>Where I've Worked<hr></h1>
+        <div>
+            <div id="workNavContainer" style="display: table-cell;">
+                <div id="workNav">
+                    <div onclick="loadMicrosoft()" id="MSButton" class="workNavButton" data-aos="fade-right" data-aos-duration="1000">Microsoft</div>
+                    <div onclick="loadDevStac()" id="DSButton" class="workNavButton" data-aos="fade-right" data-aos-duration="1000">DevSTAC</div>
+                    <div onclick="loadCapitalOne()" id="COButton" class="workNavButton" data-aos="fade-right" data-aos-duration="1000">Capital One</div>
+                    <div onclick="loadTripwire()" id="TButton" class="workNavButton" data-aos="fade-right" data-aos-duration="1000">Tripwire</div>
+                </div>
+            </div>
+            <div id="workInfo" style="display: table-cell;" data-aos="fade-up" data-aos-duration="1000">
+            </div>
+        </div>
+    </div>
+    <script src="sk.js"></script>
+    <script src="WorkHistory.js"></script>
+</body>
 </html>
