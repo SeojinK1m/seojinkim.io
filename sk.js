@@ -53,6 +53,22 @@ const showResume = () => {
     window.open("SAM-KIM-RESUME.pdf")
 }
 
+const openGithub = () => {
+    window.open("https://github.com/SeojinK1m")
+}
+
+const openInsta = () => {
+    window.open("https://instagram.com/saam_kimm")
+}
+
+const openLinkedin = () => {
+    window.open("https://www.linkedin.com/in/seojin-sam-kim-35080918a/")
+}
+
+const rickroll = () => {
+    window.open("https://www.youtube.com/watch?v=xvFZjo5PgG0&ab_channel=Duran")
+}
+
 const loadMicrosoft = () => {
     const workInfo = document.querySelector("#workInfo")
     workInfo.innerHTML = "<h3>Incoming SWE Intern</h3><h4>May 2022 - Aug 2022</h4><p><i class='fa fa-chevron-circle-right'></i> Will Intern at Microsoft during the Summer of 2022.</p>"
@@ -73,6 +89,14 @@ const loadCapitalOne = () => {
     const workInfo = document.querySelector("#workInfo")
     workInfo.innerHTML = "<h3>SWE Intern</h3><h4>Oct 2021 - Present</h4><p><i class='fa fa-chevron-circle-right'></i> Built an HR operational dashboard using Vue.js and Django as part of the Enterprise, Data, and Machine Learning team at Capital One. The dashboard will be used by more than 200 HR employees.</p><p><i class='fa fa-chevron-circle-right'></i> Developed a slack chat bot that will promote Diversity, Inclusion, and Belonging within Capital One's working culture.</p>"
     button = document.querySelector("#COButton")
+    
+    chooseWorkplace(button)
+}
+
+const loadTripwire = () => {
+    const workInfo = document.querySelector("#workInfo")
+    workInfo.innerHTML = "<h3>SWE Intern</h3><h4>Feb 2021 - May 2021</h4><p><i class='fa fa-chevron-circle-right'></i> Built an HR operational dashboard using Vue.js and Django as part of the Enterprise, Data, and Machine Learning team at Capital One. The dashboard will be used by more than 200 HR employees.</p><p><i class='fa fa-chevron-circle-right'></i> Developed a slack chat bot that will promote Diversity, Inclusion, and Belonging within Capital One's working culture.</p>"
+    button = document.querySelector("#TWButton")
     
     chooseWorkplace(button)
 }

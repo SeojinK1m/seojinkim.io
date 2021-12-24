@@ -207,12 +207,8 @@ p {
   align-items: center;
   justify-content: center;
 }
-.workNavButton {
-  background-color: var(--darkBlue);
-}
 .workNavButton:hover {
   background-color: #0b273f;
-  transition: 2s;
 }
 #workInfo {
   color: var(--midYellow);
@@ -377,6 +373,7 @@ p {
     width: 200px;
     position: fixed;
     backdrop-filter: blur(10px) brightness(80%);
+    background: rgba(124, 119, 110, 0.349);
     z-index: 3;
     transition: top 0s;
   }

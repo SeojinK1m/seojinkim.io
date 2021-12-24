@@ -31,10 +31,10 @@
         </button>
     </div>
     <div id="left" data-aos="fade-left" data-aos-duration="1400">
-        <i class="fa fa-github icons"></i>
-        <i class="fa fa-instagram icons"></i>
-        <i class="fa fa-linkedin-square icons"></i>
-        <i class="fa fa-youtube icons"></i>
+        <i class="fa fa-github icons" onclick="openGithub()"></i>
+        <i class="fa fa-instagram icons" onclick="openInsta()"></i>
+        <i class="fa fa-linkedin-square icons" onclick="openLinkedin()"></i>
+        <i class="fa fa-youtube icons" onclick="rickroll()"></i>
     </div>
     <div id="aboutMe">
         <div id="aboutMeText" data-aos="fade-up" data-aos-duration="1000">
@@ -74,12 +74,12 @@
     <div id="whereIveWorked" data-aos="fade-up" data-aos-duration="700">
         <h1>Where I've Worked<hr></h1>
         <div>
-            <div id="workNavContainer" style="display: table-cell;">
+            <div id="workNavContainer" style="display: table-cell;" data-aos="fade-right" data-aos-duration="1000">
                 <div id="workNav">
                     <div onclick="loadMicrosoft()" id="MSButton" class="workNavButton" data-aos="fade-right" data-aos-duration="1000">Microsoft</div>
                     <div onclick="loadDevStac()" id="DSButton" class="workNavButton" data-aos="fade-right" data-aos-duration="1000">DevSTAC</div>
                     <div onclick="loadCapitalOne()" id="COButton" class="workNavButton" data-aos="fade-right" data-aos-duration="1000">Capital One</div>
-                    <div onclick="loadTripwire()" id="TButton" class="workNavButton" data-aos="fade-right" data-aos-duration="1000">Tripwire</div>
+                    <div onclick="loadTripwire()" id="TWButton" class="workNavButton" data-aos="fade-right" data-aos-duration="1000">Tripwire</div>
                 </div>
             </div>
             <div id="workInfo" style="display: table-cell;" data-aos="fade-up" data-aos-duration="1000">
