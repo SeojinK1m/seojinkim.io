@@ -95,7 +95,7 @@ const loadCapitalOne = () => {
 
 const loadTripwire = () => {
     const workInfo = document.querySelector("#workInfo")
-    workInfo.innerHTML = "<h3>SWE Intern</h3><h4>Feb 2021 - May 2021</h4><p><i class='fa fa-chevron-circle-right'></i> Built an HR operational dashboard using Vue.js and Django as part of the Enterprise, Data, and Machine Learning team at Capital One. The dashboard will be used by more than 200 HR employees.</p><p><i class='fa fa-chevron-circle-right'></i> Developed a slack chat bot that will promote Diversity, Inclusion, and Belonging within Capital One's working culture.</p>"
+    workInfo.innerHTML = "<h3>SWE Intern</h3><h4>Feb 2021 - May 2021</h4><p><i class='fa fa-chevron-circle-right'></i> Collaborated closely with senior engineers to develop and test security software suites.</p><p><i class='fa fa-chevron-circle-right'></i> Implemented features that improved user experience such as Dark Mode and drag-and-drop modules.</p>"
     button = document.querySelector("#TWButton")
     
     chooseWorkplace(button)
@@ -119,6 +119,7 @@ const chooseWorkplace = (button) => {
     document.querySelector("#COButton").classList.remove("Selected")
     document.querySelector("#DSButton").classList.remove("Selected")
     document.querySelector("#MSButton").classList.remove("Selected")
+    document.querySelector("#TWButton").classList.remove("Selected")
 
     if(!button.classList.contains("Selected")) {
         button.classList.add("Selected")
