@@ -12,8 +12,8 @@
 </head>
 <body>
     <div class="navbar">
-        <h4>About</h4>
-        <h4>Experience</h4>
+        <a href="#aboutMe"><h4>About</h4></a>
+        <a href="#whereIveWorked"><h4>Experience</h4></a>
         <h4>Work</h4>
         <h4>Contact</h4>
     </div>
@@ -26,17 +26,17 @@
             I'm a software engineer experienced in building responsive applications for the web and mobile devices. 
             Currently, I'm focused on developing software that enriches the student experience at DevSTAC.
         </p>
-        <button id="resumeButton">
+        <button id="resumeButton" onclick="showResume()">
             RESUME
         </button>
     </div>
     <div id="left" data-aos="fade-left" data-aos-duration="1400">
-        <i class="fa fa-github" style="font-size: 1.5em; margin: 10px; color: rgb(255, 159, 14);"></i>
-        <i class="fa fa-instagram" style="font-size: 1.5em; margin: 10px; color: rgb(255, 159, 14)"></i>
-        <i class="fa fa-linkedin-square" style="font-size: 1.5em; margin: 10px; color: rgb(255, 159, 14)"></i>
-        <i class="fa fa-youtube" style="font-size: 1.5em; margin: 10px; color: rgb(255, 159, 14)"></i>
+        <i class="fa fa-github icons"></i>
+        <i class="fa fa-instagram icons"></i>
+        <i class="fa fa-linkedin-square icons"></i>
+        <i class="fa fa-youtube icons"></i>
     </div>
-    <div class="aboutMe">
+    <div id="aboutMe">
         <div id="aboutMeText" data-aos="fade-up" data-aos-duration="1000">
             <h1>About Me <hr></h1> 
             <p>
@@ -69,9 +69,9 @@
                 </tr>
             </table>
         </div>
-        <img data-aos="flip-left" data-aos-duration="1000" src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.6435-9/180978949_314228950059549_1005358403722529104_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=YGKjAwiby84AX8w1vTz&_nc_ht=scontent-ort2-1.xx&oh=00_AT9pQ14pU9RhtSE9ctYDftC5VwIY5oWEZWJ05L545v3HYg&oe=61E6138E" id="me">
+        <img data-aos="fade-up" data-aos-duration="1000" src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.6435-9/180978949_314228950059549_1005358403722529104_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=YGKjAwiby84AX8w1vTz&_nc_ht=scontent-ort2-1.xx&oh=00_AT9pQ14pU9RhtSE9ctYDftC5VwIY5oWEZWJ05L545v3HYg&oe=61E6138E" id="me">
     </div>
-    <div class="whereIveWorked" data-aos="fade-up" data-aos-duration="700">
+    <div id="whereIveWorked" data-aos="fade-up" data-aos-duration="700">
         <h1>Where I've Worked<hr></h1>
         <div>
             <div id="workNavContainer" style="display: table-cell;">
