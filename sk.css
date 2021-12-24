@@ -373,7 +373,7 @@ p {
     width: 200px;
     position: fixed;
     backdrop-filter: blur(10px) brightness(80%);
-    background: rgba(124, 119, 110, 0.349);
+    background: rgba(124, 119, 110, 0.87);
     z-index: 3;
     transition: top 0s;
   }
